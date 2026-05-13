@@ -26,3 +26,5 @@ jobs:
         run: |
           docker tag my-project ${{ secrets.DOCKER_USERNAME }}/my-project:latest
           docker push ${{ secrets.DOCKER_USERNAME }}/my-project:latest
+
+
